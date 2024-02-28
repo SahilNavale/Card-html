@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    
+}
+main{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../images/blu-back.jpg);
+
+    display: flex;
+    justify-content:center;
+   
+
+}
+section{
+    /* background-color: rgb(157, 98, 171); */
+    width: 80%;
+   
+   display: flex;
+   justify-content: space-between;
+   
+}
+div{
+    /* background-color: rgb(161, 145, 202); */
+    width: 25%;
+    
+ 
+   
+  
+    overflow: hidden;
+    
+
+}
+img{
+    width: 100%;
+    
+
+   
+    transition: 2s;
+ 
+    
+  filter: drop-shadow(20px 20px 3px #010101);
+}
+
+h3{
+    color: rgb(3, 251, 19);
+    text-align: center;
+}
+button{
+    width: 80%;
+    height: 30px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 8%;
+    box-shadow: 10px 10px 5px black;
+    margin: 10%;
+}
+
+#dosa{
+    margin-right: 20px;
+}
+
+/* img:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    filter: blur(10px);
+} */
+
+#vadapav:hover{
+    transform: scale(1.2);
+    /* transition: 2s; */
+    filter: blur(20px);
+}
+#pavbhaji:hover{
+    transform: scale(1.2);
+    opacity: 0.1;
+}
+#dosa:hover{
+    transform: rotate(360deg);
+}
+#paneer:hover{
+    transform: rotateY(220deg);
+}
+
+
+
+
+button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+.in{
+    width: 100%;
+    position: relative;
+
+}
+.magic{
+    position: absolute;
+    top: 66%;
+    left: 14%;
+    display: none;
+    color: rgb(75, 250, 0);
+
+}
+.in:hover .magic{
+    display: block;
+}
+.cal{
+    width: 80%;
+    border: 2px solid rgb(13, 255, 5);
+    border-radius: 10px;
+    box-shadow: 15px 15px 3px black;
+    margin-left: 10%
+}
