@@ -9,7 +9,7 @@ main{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url(../images/blu-back.jpg);
+    background-image: url(images/blu-back.jpg);
 
     display: flex;
     justify-content:center;
